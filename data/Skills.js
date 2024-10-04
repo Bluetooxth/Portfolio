@@ -18,15 +18,12 @@ import {
     SiPostman,
   } from "react-icons/si";
   import { RiRemixRunFill } from "react-icons/ri";
+  import { FaGolang } from "react-icons/fa6";
   
   const skills = [
     {
       skillName: "JavaScript",
       skillIcon: FaJsSquare,
-    },
-    {
-      skillName: "TypeScript",
-      skillIcon: SiTypescript,
     },
     {
       skillName: "TailwindCSS",
@@ -39,10 +36,6 @@ import {
     {
       skillName: "NextJS",
       skillIcon: SiNextdotjs,
-    },
-    {
-      skillName: "Remix",
-      skillIcon: RiRemixRunFill,
     },
     {
       skillName: "NodeJS",
@@ -61,12 +54,12 @@ import {
       skillIcon: SiMongoose,
     },
     {
-      skillName: "Python",
-      skillIcon: SiPython,
+      skillName: "Golang",
+      skillIcon: FaGolang,
     },
     {
-      skillName: "Rust",
-      skillIcon: SiRust,
+      skillName: "Python",
+      skillIcon: SiPython,
     },
     {
       skillName: "Git",

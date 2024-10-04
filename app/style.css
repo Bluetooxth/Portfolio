@@ -1,52 +1,53 @@
 body {
-  background: radial-gradient(circle, #181818, #212121);
+  background: #121212;
   color:#f1f5f9;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
 .footer{
-  border-top: 1px solid #51515151;
+  border-top: 1px solid #55555555;
 }
 
 .card {
   background: transparent;
-  border: 3px solid #51515151;
+  border: 3px solid #55555555;
   transition: 0.5s ease-in-out;
 }
 
 .card:hover {
-  background: #242424;
+  background: #212121;
 }
 
 .skills {
   background: transparent;
-  border: 3px solid #51515151;
+  border: 3px solid #55555555;
   transition: 0.5s ease-in-out;
 }
 
 .skills:hover {
-  background: #242424;
+  background: #212121;
 }
 
 .btn {
   background: transparent;
-  border: 2px solid #51515151;
+  border: 2px solid #55555555;
   transition: 0.5s ease-in-out;
 }
 
 .btn:hover {
-  background: #242424;
+  background: #f1f5f9;
+  color: #121212;
 }
 
 .input {
   background: transparent;
-  border: 2px solid #51515151;
+  border: 2px solid #55555555;
   transition: 0.5s ease-in-out;
 }
 
 .input:focus {
-  background: #242424;
+  background: #212121;
 }
 
 ::-webkit-scrollbar {

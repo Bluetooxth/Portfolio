@@ -14,7 +14,7 @@ const LandingPage = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 500,
+      duration: 1000,
       once: false,
       easing: 'ease-in-out-back',
       mirror: false,
@@ -28,7 +28,7 @@ const LandingPage = () => {
         <AboutMe />
         <Skills />
         <Projects />
-        <Expertise />
+        {/* <Expertise /> */}
         <Experience />
         <ContactMe />
       </main>

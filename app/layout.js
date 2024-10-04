@@ -4,7 +4,7 @@ import "./style.css"
 import Footer from "@/components/Footer";
 
 const font = localFont({
-  src: "./fonts/InstrumentSans.ttf",
+  src: "./fonts/Zodiak.ttf",
   weight: "400",
 });
 

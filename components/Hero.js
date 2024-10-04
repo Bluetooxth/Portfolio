@@ -4,7 +4,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from "next/link";
-``;
+import { FaRegDotCircle } from "react-icons/fa";
 
 const Hero = () => {
   const socials = [
@@ -46,7 +46,12 @@ const Hero = () => {
           className="text-2xl font-medium flex flex-col space-y-1 text-slate-200"
         >
           <span>{`I'm a Competitive Programmer`}</span>
-          <span>{`and a MERN Stack Developer`}</span>
+          <span>{`and a web Developer`}</span>
+        </p>
+        <p 
+        data-aos="zoom-in"
+        className="text-lg font-medium flex items-center gap-2 text-green-500 rounded-xl">
+        <FaRegDotCircle /> Learning Golang
         </p>
         <div
           data-aos="zoom-in"
