@@ -4,8 +4,8 @@ import "./style.css"
 import Footer from "@/components/Footer";
 
 const font = localFont({
-  src: "./fonts/Zodiak.ttf",
-  weight: "400",
+  src: "./fonts/Satoshi.woff",
+  weight: "500",
 });
 
 export const metadata = {
@@ -39,6 +39,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
+      className = {font.className}
       >
         {children}
         <Footer />

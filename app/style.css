@@ -1,53 +1,39 @@
 body {
-  background: #121212;
+  background: linear-gradient(145deg, #222222, #181818);
   color:#f1f5f9;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  scroll-behavior: smooth;
 }
 
 .footer{
-  border-top: 1px solid #55555555;
+  border-top: 1px solid #50505050;
 }
 
 .card {
-  background: transparent;
-  border: 3px solid #55555555;
-  transition: 0.5s ease-in-out;
-}
-
-.card:hover {
-  background: #212121;
+  background: #252525;
+  border: 2px solid #50505050;
 }
 
 .skills {
-  background: transparent;
-  border: 3px solid #55555555;
-  transition: 0.5s ease-in-out;
-}
-
-.skills:hover {
-  background: #212121;
+  background: #252525;
+  border: 2px solid #50505050;
 }
 
 .btn {
-  background: transparent;
-  border: 2px solid #55555555;
+  background: #252525;
+  border: 2px solid #50505050;
   transition: 0.5s ease-in-out;
 }
 
 .btn:hover {
   background: #f1f5f9;
-  color: #121212;
+  color: #222222;
 }
 
 .input {
-  background: transparent;
-  border: 2px solid #55555555;
-  transition: 0.5s ease-in-out;
-}
-
-.input:focus {
-  background: #212121;
+  background: #252525;
+  border: 2px solid #50505050;
 }
 
 ::-webkit-scrollbar {

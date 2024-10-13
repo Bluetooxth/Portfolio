@@ -31,7 +31,7 @@ const Projects = () => {
                   </p>
                 </div>
                 <div className="flex flex-col justify-start items-start gap-2 mt-3">
-                  <p className="text-xl font-medium flex flex-wrap items-center justify-start gap-3 text-slate-300">
+                  <p className="text-2xl font-medium flex flex-wrap items-center justify-start gap-3 text-slate-300">
                     {project.tech.map((t, i) => (
                       <span key={i}>{t}</span>
                     ))}

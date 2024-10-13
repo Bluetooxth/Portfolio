@@ -12,7 +12,7 @@ const AboutMe = () => {
           className="flex justify-start items-start w-full"
         >
           <div className="flex flex-col justify-start items-start space-y-3 p-5 cursor-pointer rounded-xl text-slate-200 card w-full">
-            <p className="text-xl font-medium">{`Hello I'm Priyanshu Chahar, a self-taught programmer passionate about coding and technology. I specialize in the Web Development, building scalable web applications using MongoDB, Express, React, Remix, NextJS and NodeJS.`}</p>
+            <p className="text-xl font-medium">{`Hello I'm Priyanshu Chahar, a self-taught programmer passionate about coding and technology. I specialize in web development, building scalable web applications using MongoDB, Express, React, Next.js, and Node.js. I also have experience with languages like Javascript, Golang and Python`}</p>
             <p className="text-xl font-medium">{`I enjoy solving complex problems through competitive programming and continuously strive to improve my skills and create innovative solutions.`}</p>
           </div>
         </div>
