@@ -7,22 +7,22 @@ body {
 }
 
 .footer{
-  border-top: 1px solid #50505050;
+  border-top: 1px solid #69696950;
 }
 
 .card {
   background: #121212;
-  border: 2px solid #50505050;
+  border: 2px solid #69696950;
 }
 
 .skills {
   background: #121212;
-  border: 2px solid #50505050;
+  border: 2px solid #69696950;
 }
 
 .btn {
   background: #121212;
-  border: 2px solid #50505050;
+  border: 2px solid #69696950;
   transition: 0.5s ease-in-out;
 }
 
@@ -33,7 +33,7 @@ body {
 
 .input {
   background: #121212;
-  border: 2px solid #50505050;
+  border: 2px solid #69696950;
 }
 
 ::-webkit-scrollbar {
