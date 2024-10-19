@@ -1,7 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import "./style.css"
-import Footer from "@/components/Footer";
 
 const font = localFont({
   src: "./fonts/Satoshi.woff",
@@ -42,7 +41,6 @@ export default function RootLayout({ children }) {
       className = {font.className}
       >
         {children}
-        <Footer />
       </body>
     </html>
   );
