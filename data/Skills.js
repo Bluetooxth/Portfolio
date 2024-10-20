@@ -19,11 +19,17 @@ import {
   } from "react-icons/si";
   import { RiRemixRunFill } from "react-icons/ri";
   import { FaGolang } from "react-icons/fa6";
+  import { TbBrandPrisma } from "react-icons/tb";
+  import { SiPostgresql } from "react-icons/si";
   
   const skills = [
     {
       skillName: "JavaScript",
       skillIcon: FaJsSquare,
+    },
+    {
+      skillName: "TypeScript",
+      skillIcon: SiTypescript,
     },
     {
       skillName: "TailwindCSS",
@@ -46,12 +52,20 @@ import {
       skillIcon: SiExpress,
     },
     {
+      skillName: "Mongoose",
+      skillIcon: SiMongoose,
+    },
+    {
+      skillName: "Prisma",
+      skillIcon: TbBrandPrisma,
+    },
+    {
       skillName: "MongoDB",
       skillIcon: SiMongodb,
     },
     {
-      skillName: "Mongoose",
-      skillIcon: SiMongoose,
+      skillName: "PostgreSQL",
+      skillIcon: SiPostgresql,
     },
     {
       skillName: "Golang",

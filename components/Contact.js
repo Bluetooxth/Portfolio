@@ -36,8 +36,8 @@ const ContactMe = () => {
   return (
     <section className="flex justify-center items-start w-full">
       <div className="flex flex-col justify-start items-start space-y-4 w-[95vw] lg:container">
-        <h2 data-aos="zoom-in" className="text-3xl font-medium">
-          Contact Me
+        <h2 data-aos="zoom-in" className="text-3xl font-medium text-zinc-200">
+          Drop a message
         </h2>
         <div className="flex flex-col justify-start items-start w-full gap-3">
           <form
@@ -48,14 +48,14 @@ const ContactMe = () => {
             <div className="flex flex-col justify-start items-start gap-2 w-full">
               <label
                 htmlFor="name"
-                className="text-2xl font-medium text-slate-200"
+                className="text-2xl font-medium text-zinc-400"
               >
                 Name
               </label>
               <input
                 type="text"
                 id="name"
-                className="text-xl font-medium px-3 py-2 outline-none w-full rounded-lg text-slate-300 input"
+                className="text-xl font-medium px-3 py-2 outline-none w-full rounded-lg text-zinc-400 input"
                 placeholder="Your Name"
                 required
                 value={name}
@@ -66,14 +66,14 @@ const ContactMe = () => {
             <div className="flex flex-col justify-start items-start gap-2 w-full">
               <label
                 htmlFor="email"
-                className="text-2xl font-medium text-slate-200"
+                className="text-2xl font-medium text-zinc-400"
               >
                 Email
               </label>
               <input
                 type="email"
                 id="email"
-                className="text-xl font-medium px-3 py-2 outline-none w-full rounded-lg text-slate-300 input"
+                className="text-xl font-medium px-3 py-2 outline-none w-full rounded-lg text-zinc-400 input"
                 placeholder="Your Email"
                 required
                 value={email}
@@ -84,13 +84,13 @@ const ContactMe = () => {
             <div className="flex flex-col justify-start items-start gap-2 w-full">
               <label
                 htmlFor="message"
-                className="text-2xl font-medium text-slate-200"
+                className="text-2xl font-medium text-zinc-400"
               >
                 Message
               </label>
               <textarea
                 id="message"
-                className="text-xl font-medium px-3 py-2 outline-none w-full rounded-lg text-slate-300 input"
+                className="text-xl font-medium px-3 py-2 outline-none w-full rounded-lg text-zinc-400 input"
                 placeholder="Your Message"
                 required
                 value={message}
@@ -99,7 +99,7 @@ const ContactMe = () => {
             </div>
             <button
               type="submit"
-              className="text-xl font-medium px-4 py-2 flex items-center gap-2 rounded-lg btn"
+              className="text-xl font-medium px-4 py-2 flex items-center gap-2  rounded-md btn"
             >
               {btn} <BsFillSendFill />
             </button>

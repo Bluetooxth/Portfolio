@@ -34,15 +34,15 @@ const Hero = () => {
       <div className="flex flex-col justify-start items-start w-[95vw] lg:container">
         <p
           data-aos="zoom-in"
-          className="text-2xl font-medium text-slate-300"
+          className="text-2xl font-medium text-zinc-400"
         >{`Hi I'm`}</p>
         <h1
           data-aos="zoom-in"
-          className="text-4xl font-medium text-slate-100 mb-1"
+          className="text-4xl font-medium text-zinc-300 mb-1"
         >{`Priyanshu Chahar`}</h1>
         <p
           data-aos="zoom-in"
-          className="text-2xl font-medium flex flex-col space-y-1 text-slate-200"
+          className="text-2xl font-medium flex flex-col space-y-1 text-zinc-400"
         >
           <span>{`Programmer and a developer`}</span>
         </p>
@@ -54,7 +54,8 @@ const Hero = () => {
             <Link
               key={index}
               href={social.link}
-              className="text-3xl text-zinc-500"
+              target="_blank"
+              className="text-3xl text-zinc-400"
             >
               {social.icon}
             </Link>

@@ -3,7 +3,7 @@ import "./globals.css";
 import "./style.css"
 
 const font = localFont({
-  src: "./fonts/Satoshi.woff",
+  src: "./fonts/Satoshi.ttf",
   weight: "500",
 });
 
