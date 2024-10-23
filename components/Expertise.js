@@ -31,7 +31,7 @@ const Expertise = () => {
             >
               <div className="flex flex-col justify-start items-start gap-2 w-full p-5 cursor-pointer rounded-lg card">
                 <h2 className="text-2xl font-medium text-zinc-300">{area.name}</h2>
-                <p className="text-xl font-medium text-zinc-400">{area.desc}</p>
+                <p className="text-lg lg:text-xl font-medium text-zinc-400">{area.desc}</p>
               </div>
             </div>
           ))}

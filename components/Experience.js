@@ -19,10 +19,10 @@ const Experience = () => {
                 <h2 className="text-2xl font-medium text-zinc-300">
                   {exp.company}
                 </h2>
-                <p className="text-xl font-medium text-zinc-400">
+                <p className="text-lg lg:text-xl font-medium text-zinc-400">
                   {exp.title}
                 </p>
-                <p className="text-xl font-medium text-zinc-400">{exp.date}</p>
+                <p className="text-lg lg:text-xl font-medium text-zinc-400">{exp.date}</p>
               </div>
             </div>
           ))}

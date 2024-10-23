@@ -29,7 +29,7 @@ const LandingPage = () => {
         <Skills />
         <Projects />
         {/* <Expertise /> */}
-        <Experience />
+        {/* <Experience /> */}
         <ContactMe />
       </main>
     </React.Fragment>

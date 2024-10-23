@@ -26,7 +26,7 @@ const Projects = () => {
                   <h2 className="text-2xl font-medium text-zinc-300">
                     {project.name}
                   </h2>
-                  <p className="text-xl font-medium text-zinc-400">
+                  <p className="text-lg lg:text-xl font-medium text-zinc-400">
                     {project.desc}
                   </p>
                 </div>
@@ -39,13 +39,13 @@ const Projects = () => {
                   <div className="flex flex-wrap justify-start items-start gap-3 mt-2">
                     <Link
                       href={project.link ?? ""}
-                      className="text-xl font-medium px-4 py-1  rounded-md btn flex items-center gap-2"
+                      className="text-lg lg:text-xl font-medium px-4 py-1  rounded-md btn flex items-center gap-2"
                     >
                       Live <RiExternalLinkFill />
                     </Link>
                     <Link
                       href={project.github}
-                      className="text-xl font-medium px-4 py-1  rounded-md btn flex items-center gap-2"
+                      className="text-lg lg:text-xl font-medium px-4 py-1  rounded-md btn flex items-center gap-2"
                     >
                       Github <FaGithub />
                     </Link>
@@ -56,7 +56,7 @@ const Projects = () => {
           ))}
         </div>
         <Link data-aos="fade-up" href="/projects" className="self-center">
-          <p className="text-xl font-medium px-4 py-2  rounded-md btn self-center mt-5 flex items-center gap-2">
+          <p className="text-lg lg:text-xl font-medium px-4 py-2  rounded-md btn self-center mt-5 flex items-center gap-2">
             View all Projects <MdArrowForward className="text-2xl"/>
           </p>
         </Link>

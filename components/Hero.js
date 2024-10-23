@@ -34,7 +34,7 @@ const Hero = () => {
       <div className="flex flex-col justify-start items-start w-[95vw] lg:container">
         <p
           data-aos="zoom-in"
-          className="text-2xl font-medium text-zinc-400"
+          className="text-xl lg:text-2xl font-medium text-zinc-400"
         >{`Hi I'm`}</p>
         <h1
           data-aos="zoom-in"
@@ -42,7 +42,7 @@ const Hero = () => {
         >{`Priyanshu Chahar`}</h1>
         <p
           data-aos="zoom-in"
-          className="text-2xl font-medium flex flex-col space-y-1 text-zinc-400"
+          className="text-xl lg:text-2xl font-medium flex flex-col space-y-1 text-zinc-400"
         >
           <span>{`Programmer and a developer`}</span>
         </p>
