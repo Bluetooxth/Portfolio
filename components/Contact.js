@@ -35,10 +35,7 @@ const ContactMe = () => {
 
   return (
     <section className="flex justify-center items-start w-full">
-      <div className="flex flex-col justify-start items-start space-y-4  container lg:w-[65vw] px-5">
-        <h2 className="text-3xl font-medium mb-2">
-          Drop a message
-        </h2>
+      <div className="flex flex-col justify-start items-start space-y-4 container lg:w-[65vw] px-5">
         <div className="flex flex-col justify-start items-start w-full gap-3">
           <form
             className="flex flex-col justify-start items-start gap-4 w-full"

@@ -8,10 +8,7 @@ const Projects = () => {
 
   return (
     <section className="flex justify-center items-start w-full">
-      <div className="flex flex-col justify-start items-start gap-4  container lg:w-[65vw] px-5">
-        <h2 className="text-3xl font-medium mb-2">
-          Projects i worked on
-        </h2>
+      <div className="flex flex-col justify-start items-start gap-4 container lg:w-[65vw] px-5">
         <div className="grid grid-cols-1 justify-start items-stretch gap-5 w-full">
           {projexts.map((project, index) => (
             <div

@@ -3,10 +3,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <section className="flex justify-center items-start w-full">
-      <div className="flex flex-col justify-start items-start space-y-4  container lg:w-[65vw] px-5">
-        <h2 className="text-3xl font-medium mb-2">
-          About me
-        </h2>
+      <div className="flex flex-col justify-start items-start space-y-4 container lg:w-[65vw] px-5">
         <div
           className="flex justify-start items-start w-full"
         >

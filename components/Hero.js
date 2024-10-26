@@ -31,7 +31,7 @@ const Hero = () => {
 
   return (
     <section className="flex justify-center items-start w-full">
-      <div className="flex flex-col justify-start items-start  container lg:w-[65vw] px-5">
+      <div className="flex flex-col justify-start items-start container lg:w-[65vw] px-5">
         <p
           className="text-xl lg:text-2xl font-medium"
         >{`Hi I'm`}</p>

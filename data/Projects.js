@@ -21,6 +21,13 @@ import { RiRemixRunFill } from "react-icons/ri";
 
 const projexts = [
   {
+    name: "Lynktree",
+    tech: [<SiNextdotjs />, <FaNodeJs />, <SiExpress />, <SiMongodb />],
+    desc: "A link management tool to organize and share multiple links through a single URL.",
+    link: "https://lynktree.vercel.app",
+    github: "https://github.com/Bluetooxth/Lynktree",
+  },
+  {
     name: "SyntaxBlog",
     tech: [<SiNextdotjs />, <SiTailwindcss />, <SiMongodb />],
     desc: "A full-stack blog application for developers to share their knowledge and experiences.",
