@@ -11,7 +11,7 @@ body {
   transition: 0.5s ease-in-out;
 }
 
-.btn:hover, .btn:active{
+.btn:hover, .btn.active{
   background: #d4d4d4;
   color: #1a1a1a;
 }
