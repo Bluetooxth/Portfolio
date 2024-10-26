@@ -4,10 +4,16 @@ body {
   scroll-behavior: smooth;
 }
 
-.card, .skills, .btn, .input, .navbtn {
+.card, .skills, .btn, .input {
   background: #232323;
   border: 1.5px solid #333333;
   border-radius: 7px;
+  transition: 0.5s ease-in-out;
+}
+
+.navbtn{
+  background: #232323;
+  border: 1.5px solid #333333;
   transition: 0.5s ease-in-out;
 }
 
