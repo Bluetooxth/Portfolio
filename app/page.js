@@ -1,39 +1,42 @@
-"use client"
-import React, {useEffect} from 'react'
-import Hero from '@/components/Hero'
-import AboutMe from '@/components/About'
-import Skills from '@/components/Skills'
-import Projects from '@/components/Projects'
-import Expertise from '@/components/Expertise'
-import Experience from '@/components/Experience'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import ContactMe from '@/components/Contact'
+"use client";
+import React, { useState } from "react";
+import Hero from "@/components/Hero";
+import AboutMe from "@/components/About";
+import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import ContactMe from "@/components/Contact";
+import Navigation from "@/components/Navigation";
 
 const LandingPage = () => {
+  const [currentSection, setCurrentSection] = useState("About");
 
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: false,
-      easing: 'ease-in-out-back',
-      mirror: false,
-    });
-  }, []);
+  const renderContent = () => {
+    switch (currentSection) {
+      case "About":
+        return <AboutMe />;
+      case "Skills":
+        return <Skills />;
+      case "Projects":
+        return <Projects />;
+      case "Contact":
+        return <ContactMe />;
+      default:
+        return <AboutMe />;
+    }
+  };
 
   return (
     <React.Fragment>
-      <main className='py-16 space-y-16'>
+      <main className="py-12 space-y-12">
         <Hero />
-        <AboutMe />
-        <Skills />
-        <Projects />
-        {/* <Expertise /> */}
-        {/* <Experience /> */}
-        <ContactMe />
+        <Navigation
+          currentSection={currentSection}
+          setCurrentSection={setCurrentSection}
+        />
+        {renderContent()}
       </main>
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default LandingPage
+export default LandingPage;

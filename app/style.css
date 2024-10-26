@@ -1,48 +1,19 @@
 body {
-  background: #000000;
-  color:#d7d7da;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background: #1c1c1c;
+  color: #e2e2e2;
   scroll-behavior: smooth;
 }
 
-.card {
-  background: #0a0a0a;
-  border: 1.5px solid #292929;
-  transition: 0.5s ease-in-out;
-}
-.card:hover{
-  background: #1f1f1f;
+.card, .skills, .btn, .input {
+  background: #232323;
+  border: 1.5px solid #333333;
+  border-radius: 7px;
   transition: 0.5s ease-in-out;
 }
 
-.skills {
-  background: #0a0a0a;
-  border: 1.5px solid #292929;
-  transition: 0.5s ease-in-out;
-}
-.skills:hover{
-  background: #1f1f1f;
-}
-
-.btn {
-  background: #0a0a0a;
-  border: 1.5px solid #292929;
-  transition: 0.5s ease-in-out;
-}
-
-.btn:hover {
-  background: #1f1f1f;
-  color: #d7d7da;
-}
-
-.input {
-  background: #0a0a0a;
-  border: 1.5px solid #292929;
-  transition: 0.5s ease-in-out;
-}
-.input:focus{
-  background: #1f1f1f;
+.btn:hover, .btn:active{
+  background: #d4d4d4;
+  color: #1c1c1c;
 }
 
 ::-webkit-scrollbar {
