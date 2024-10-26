@@ -4,7 +4,7 @@ const Navigation = ({ currentSection, setCurrentSection }) => {
   return (
     <section className="flex justify-center items-start w-full">
       <div className="flex flex-col justify-start items-start container lg:w-[65vw] px-5">
-        <div className="flex flex-wrap justify-start items-start w-full gap-5">
+        <div className="flex flex-wrap justify-start items-start w-full gap-3">
           <button
             className={`text-lg lg:text-xl font-medium px-3 py-1 btn ${
               currentSection === "About" ? "active" : ""

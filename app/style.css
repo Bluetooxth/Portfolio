@@ -1,5 +1,5 @@
 body {
-  background: #1c1c1c;
+  background: #1a1a1a;
   color: #e2e2e2;
   scroll-behavior: smooth;
 }
@@ -13,7 +13,7 @@ body {
 
 .btn:hover, .btn:active{
   background: #d4d4d4;
-  color: #1c1c1c;
+  color: #1a1a1a;
 }
 
 ::-webkit-scrollbar {
