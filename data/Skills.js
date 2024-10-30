@@ -78,10 +78,10 @@ const skills = [
     skillName: "PostgreSQL",
     skillIcon: SiPostgresql,
   },
-  {
-    skillName: "Zustand",
-    skillIcon: GiBearFace,
-  },
+  // {
+  //   skillName: "Zustand",
+  //   skillIcon: GiBearFace,
+  // },
   {
     skillName: "Golang",
     skillIcon: FaGolang,

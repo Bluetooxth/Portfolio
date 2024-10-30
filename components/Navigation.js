@@ -30,7 +30,7 @@ const Navigation = ({ currentSection, setCurrentSection }) => {
             Projects
           </button>
           <button
-            className={`text-lg lg:text-xl font-medium px-4 py-1 navbtn rounded-full ${
+            className={`text-lg lg:text-xl font-medium px-2 py-1 navbtn rounded-md ${
               currentSection === "Contact" ? "active" : ""
             }`}
             onClick={() => setCurrentSection("Contact")}

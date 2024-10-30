@@ -11,7 +11,7 @@ const Skills = () => {
               key={index}
               className="flex justify-center items-center"
             >
-              <p className="text-lg lg:text-xl font-medium flex gap-2 items-center px-3 py-2 skills cursor-pointer">
+              <p className="text-lg lg:text-xl font-medium flex gap-2 items-center px-3 py-1 md:py-2 skills cursor-pointer">
                 <span>{React.createElement(skill.skillIcon)}</span>
                 <span>{skill.skillName}</span>
               </p>
