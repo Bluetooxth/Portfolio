@@ -6,6 +6,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/Contact";
 import Navigation from "@/components/Navigation";
+import Nav from "@/components/Nav";
 
 const LandingPage = () => {
   const [currentSection, setCurrentSection] = useState("About");
@@ -27,6 +28,7 @@ const LandingPage = () => {
 
   return (
     <React.Fragment>
+      <Nav />
       <main className="py-12 space-y-12">
         <Hero />
         <Navigation

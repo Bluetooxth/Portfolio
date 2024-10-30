@@ -6,7 +6,7 @@ const Navigation = ({ currentSection, setCurrentSection }) => {
       <div className="flex flex-col justify-start items-start container lg:w-[65vw] px-5">
         <div className="flex flex-wrap justify-start items-start w-full gap-3">
           <button
-            className={`text-lg lg:text-xl font-medium px-4 py-1 navbtn rounded-full ${
+            className={`text-lg lg:text-xl font-medium px-2 py-1 navbtn rounded-md ${
               currentSection === "About" ? "active" : ""
             }`}
             onClick={() => setCurrentSection("About")}
@@ -14,7 +14,7 @@ const Navigation = ({ currentSection, setCurrentSection }) => {
             About
           </button>
           <button
-            className={`text-lg lg:text-xl font-medium px-4 py-1 navbtn rounded-full ${
+            className={`text-lg lg:text-xl font-medium px-2 py-1 navbtn rounded-md ${
               currentSection === "Skills" ? "active" : ""
             }`}
             onClick={() => setCurrentSection("Skills")}
@@ -22,7 +22,7 @@ const Navigation = ({ currentSection, setCurrentSection }) => {
             Skills
           </button>
           <button
-            className={`text-lg lg:text-xl font-medium px-4 py-1 navbtn rounded-full ${
+            className={`text-lg lg:text-xl font-medium px-2 py-1 navbtn rounded-md ${
               currentSection === "Projects" ? "active" : ""
             }`}
             onClick={() => setCurrentSection("Projects")}
