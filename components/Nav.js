@@ -42,7 +42,7 @@ const Nav = () => {
               key={index}
               href={social.link}
               target="_blank"
-              className="text-3xl"
+              className="md:text-3xl text-xl"
             >
               {social.icon}
             </Link>
