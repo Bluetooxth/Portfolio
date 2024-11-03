@@ -1,29 +1,29 @@
 body {
-  background: #1a1a1a;
-  color: #e2e2e2;
+  background: #191919;
+  color: #dedede;
   scroll-behavior: smooth;
 }
 
 .card, .skills, .btn, .input {
-  background: #232323;
-  border: 1.5px solid #333333;
+  background: #1c1c1c;
+  border: 2px solid #333333;
   border-radius: 7px;
   transition: 0.5s ease-in-out;
 }
 
 .navbar{
-  background: #232323;
+  background: #1c1c1c;
 }
 
 .navbtn{
-  background: #232323;
-  border: 1.5px solid #333333;
+  background: #1c1c1c;
+  border: 2px solid #333333;
   transition: 0.5s ease-in-out;
 }
 
 .btn:hover, .navbtn.active{
   background: #d4d4d4;
-  color: #1a1a1a;
+  color: #222222;
 }
 
 ::-webkit-scrollbar {
