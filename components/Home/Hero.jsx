@@ -57,7 +57,7 @@ const Hero = () => {
       <div className="flex flex-col-reverse md:grid md:grid-cols-2 justify-start items-start w-[95vw] lg:w-[65vw] md:w-[75vw]">
         <div className="flex flex-col justify-start items-start gap-1">
           <p className="text-lg font-medium text-cyan-600 mt-5 md:mt-0">
-            Hello I'm
+            {`Hello I'm`}
           </p>
           <h2 className="text-3xl font-medium text-zinc-200">
             Priyanshu Chahar
