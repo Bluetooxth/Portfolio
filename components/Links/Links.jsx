@@ -45,7 +45,7 @@ const Links = () => {
               href={link.link}
               key={index}
               target="_blank"
-              className="flex justify-between items-center bg-zinc-900 hover:bg-zinc-950 border-2 border-zinc-700 hover:border-cyan-700 cursor-pointer px-3 py-2 text-lg font-medium text-zinc-300 rounded-md slow w-full"
+              className="flex justify-between items-center bg-transparent border-2 border-zinc-700 hover:border-cyan-700 cursor-pointer px-3 py-2 text-lg font-medium text-zinc-300 rounded-md slow w-full"
             >
               {link.icon}
               {link.name}

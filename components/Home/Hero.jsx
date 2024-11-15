@@ -36,7 +36,6 @@ const Hero = () => {
           <p className="text-lg font-medium text-zinc-300">
             Developer and Programmer
           </p>
-          <p className="text-lg font-medium text-zinc-300">{`UTC+05:30, India`}</p>
           <div className="flex flex-wrap justify-start items-center gap-3 mt-2">
             {links.map((link, index) => (
               <Link

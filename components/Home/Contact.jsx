@@ -98,7 +98,7 @@ const ContactMe = () => {
             </div>
             <button
               type="submit"
-              className="text-lg font-medium flex gap-2 items-center px-3 py-1 border-2 border-zinc-700 hover:border-cyan-700 cursor-pointer bg-zinc-900 hover:bg-cyan-600 rounded-md text-zinc-300 slow"
+              className="text-lg font-medium flex gap-2 items-center px-3 py-1 border-2 border-zinc-700 hover:border-cyan-700 cursor-pointer bg-transparent hover:bg-cyan-600 rounded-md text-zinc-300 slow"
             >
               {btn} <BsFillSendFill className="inline-block" />
             </button>

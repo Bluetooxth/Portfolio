@@ -10,7 +10,7 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <p
               key={index}
-              className="text-lg font-medium flex gap-2 items-center px-3 py-1 border-2 border-zinc-700 hover:border-cyan-700 cursor-pointer bg-zinc-900 hover:bg-zinc-950 rounded-md text-zinc-300 slow"
+              className="text-lg font-medium flex gap-2 items-center px-3 py-1 border-2 border-zinc-700 hover:border-cyan-700 cursor-pointer bg-transparent rounded-md text-zinc-300 slow"
             >
               <span>{skill.skillName}</span>
             </p>
