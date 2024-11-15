@@ -1,5 +1,4 @@
-"use client";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -24,34 +23,6 @@ const Hero = () => {
     },
   ];
 
-  const [time, setTime] = useState("");
-
-  const getTime = () => {
-    new Date().toLocaleTimeString("en-US", {
-      hour: "numeric",
-      minute: "numeric",
-      second: "numeric",
-      hour12: true,
-    });
-
-    const date = new Date();
-    const hours = date.getHours();
-    const minutes = date.getMinutes();
-    const seconds = date.getSeconds();
-    const amOrPm = hours >= 12 ? "PM" : "AM";
-    const formattedTime = `${hours % 12}:${minutes
-      .toString()
-      .padStart(2, "0")}:${seconds.toString().padStart(2, "0")} ${amOrPm}`;
-    setTime(formattedTime);
-  };
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      getTime();
-    }, 1000);
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <section className="flex justify-center items-center w-full">
       <div className="flex flex-col-reverse md:grid md:grid-cols-2 justify-start items-start w-[95vw] lg:w-[65vw] md:w-[75vw]">
@@ -65,19 +36,19 @@ const Hero = () => {
           <p className="text-lg font-medium text-zinc-300">
             Developer and Programmer
           </p>
-          <div className="flex flex-wrap justify-start items-center gap-3 mt-3">
+          <p className="text-lg font-medium text-zinc-300">{`UTC+05:30, India`}</p>
+          <div className="flex flex-wrap justify-start items-center gap-3 mt-2">
             {links.map((link, index) => (
               <Link
                 key={index}
                 href={link.link}
                 target="_blank"
-                className="text-xl text-zinc-300"
+                className="text-2xl text-zinc-300"
               >
                 <span>{link.icon}</span>
               </Link>
             ))}
           </div>
-          <p className="text-sm font-medium text-zinc-300 mt-2">{time}</p>
         </div>
         <div className="flex justify-start items-center">
           <img

@@ -37,17 +37,18 @@ const Links = () => {
 
   return (
     <section className="flex justify-center items-start w-full min-h-screen">
-      <div className="flex flex-col justify-start items-start w-[95vw] lg:w-[65vw] md:w-[75vw]">
+      <div className="flex flex-col justify-start items-center w-[95vw]">
         <h2 className="text-3xl font-medium text-zinc-200">Find me on</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-7 justify-start items-stretch mt-3 w-full">
+        <div className="flex flex-col gap-3 justify-start items-center mt-5 w-full max-w-[600px]">
           {links.map((link, index) => (
             <Link
               href={link.link}
               key={index}
               target="_blank"
-              className="flex justify-center items-center bg-zinc-900 hover:bg-zinc-950 border-2 border-zinc-700 hover:border-cyan-700 cursor-pointer p-7 rounded-md slow w-full"
+              className="flex justify-between items-center bg-zinc-900 hover:bg-zinc-950 border-2 border-zinc-700 hover:border-cyan-700 cursor-pointer px-3 py-2 text-lg font-medium text-zinc-300 rounded-md slow w-full"
             >
               {link.icon}
+              {link.name}
             </Link>
           ))}
         </div>
