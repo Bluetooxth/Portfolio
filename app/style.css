@@ -1,29 +1,30 @@
+@font-face {
+  font-family: "Aeonik";
+  src: url('./fonts/aeonik.otf');
+}
+
+@font-face {
+  font-family: "Instrument-Serif";
+  src: url("./fonts/instrument-serif.ttf");
+}
+
 body {
-  background: #191919;
-  color: #dedede;
+  background: #000000;
+  color: #efefef;
   scroll-behavior: smooth;
+  font-family: "aeonik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.card, .skills, .btn, .input {
-  background: #1c1c1c;
-  border: 2px solid #333333;
-  border-radius: 7px;
-  transition: 0.5s ease-in-out;
+h2{
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal
 }
 
-.navbar{
-  background: #1c1c1c;
-}
-
-.navbtn{
-  background: #1c1c1c;
-  border: 2px solid #333333;
-  transition: 0.5s ease-in-out;
-}
-
-.btn:hover, .navbtn.active{
-  background: #d4d4d4;
-  color: #222222;
+.slow{
+  transition: all 0.5s ease-in-out;
 }
 
 ::-webkit-scrollbar {

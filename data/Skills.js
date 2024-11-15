@@ -25,15 +25,12 @@ import { GiBearFace } from "react-icons/gi";
 import { TbBrandReactNative } from "react-icons/tb";
 import { SiExpo } from "react-icons/si";
 
+
 const skills = [
   {
     skillName: "JavaScript",
     skillIcon: FaJsSquare,
   },
-  // {
-  //   skillName: "TypeScript",
-  //   skillIcon: SiTypescript,
-  // },
   {
     skillName: "TailwindCSS",
     skillIcon: SiTailwindcss,
@@ -78,17 +75,13 @@ const skills = [
     skillName: "PostgreSQL",
     skillIcon: SiPostgresql,
   },
-  // {
-  //   skillName: "Zustand",
-  //   skillIcon: GiBearFace,
-  // },
   {
     skillName: "Golang",
     skillIcon: FaGolang,
   },
   {
-    skillName: "Python",
-    skillIcon: SiPython,
+    skillName: "C lang",
+    skillIcon: "",
   },
   {
     skillName: "Git",

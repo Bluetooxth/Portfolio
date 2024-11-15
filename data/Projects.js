@@ -2,9 +2,6 @@ import {
   FaJsSquare,
   FaReact,
   FaNodeJs,
-  FaGitAlt,
-  FaGithub,
-  FaLinux,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -47,13 +44,6 @@ const projexts = [
     desc: "A doctor-patient appointment system enabling easy scheduling, management, and communication.",
     link: "https://dokxy.vercel.app",
     github: "https://github.com/Bluetooxth/Dokxy",
-  },
-  {
-    name: "Palette",
-    tech: [<SiNextdotjs />, <SiTailwindcss />],
-    desc: "A sleek color palette generator for designers and developers to create unique schemes.",
-    link: "https://colorpalettex.vercel.app",
-    github: "https://github.com/Bluetooxth/Color-Palette",
   },
   {
     name: "ReactJS Projects",
