@@ -54,7 +54,7 @@ const ContactMe = () => {
               <input
                 type="text"
                 id="name"
-                className="text-lg font-medium px-3 py-2 outline-none w-full bg-transparent border-[3px] border-zinc-700 focus:border-cyan-700 rounded-md text-zinc-300 slow"
+                className="text-lg font-medium px-3 py-2 outline-none w-full bg-transparent border-2 border-zinc-700 focus:border-cyan-700 rounded-md text-zinc-300 slow"
                 placeholder="Your Name"
                 required
                 value={name}
@@ -72,7 +72,7 @@ const ContactMe = () => {
               <input
                 type="email"
                 id="email"
-                className="text-lg font-medium px-3 py-2 outline-none w-full bg-transparent border-[3px] border-zinc-700 focus:border-cyan-700 rounded-md text-zinc-300 slow"
+                className="text-lg font-medium px-3 py-2 outline-none w-full bg-transparent border-2 border-zinc-700 focus:border-cyan-700 rounded-md text-zinc-300 slow"
                 placeholder="Your Email"
                 required
                 value={email}
@@ -89,7 +89,7 @@ const ContactMe = () => {
               </label>
               <textarea
                 id="message"
-                className="text-lg font-medium px-3 py-2 outline-none w-full bg-transparent border-[3px] border-zinc-700 focus:border-cyan-700 rounded-md text-zinc-300 slow"
+                className="text-lg font-medium px-3 py-2 outline-none w-full bg-transparent border-2 border-zinc-700 focus:border-cyan-700 rounded-md text-zinc-300 slow"
                 placeholder="Your Message"
                 required
                 value={message}
@@ -98,7 +98,7 @@ const ContactMe = () => {
             </div>
             <button
               type="submit"
-              className="text-lg font-medium flex gap-2 items-center px-3 py-1 border-[3px] border-zinc-700 hover:border-cyan-700 cursor-pointer bg-zinc-900 hover:bg-cyan-600 rounded-md text-zinc-300 slow"
+              className="text-lg font-medium flex gap-2 items-center px-3 py-1 border-2 border-zinc-700 hover:border-cyan-700 cursor-pointer bg-zinc-900 hover:bg-cyan-600 rounded-md text-zinc-300 slow"
             >
               {btn} <BsFillSendFill className="inline-block" />
             </button>
