@@ -6,7 +6,7 @@ const Nav = () => {
     <section className="flex justify-center items-center w-full bg-zinc-900 bg-opacity-20 sticky top-0 backdrop-blur-lg">
       <div className="flex justify-between items-center w-[95vw] lg:w-[65vw] md:w-[75vw] py-3 px-5">
         <div className="">
-          <h2 className="text-2xl font-medium text-zinc-300">
+          <h2 className="text-2xl font-medium text-zinc-300 italic">
             <Link href={"/"}>Priyanshu</Link>
           </h2>
         </div>

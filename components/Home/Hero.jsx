@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   const links = [
@@ -50,9 +51,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex justify-start items-center">
-          <img
-            src="https://avatars.githubusercontent.com/u/165533860?v=4"
+          <Image
+            src={`https://avatars.githubusercontent.com/u/165533860?v=4`}
             alt=""
+            height={200}
+            width={200}
             className="h-[200px] w-[200px] rounded-xl object-cover"
           />
         </div>

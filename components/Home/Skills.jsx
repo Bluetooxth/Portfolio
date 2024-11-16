@@ -1,5 +1,6 @@
 import React from "react";
 import skills from "@/data/Skills";
+import Image from "next/image";
 
 const Skills = () => {
   return (
@@ -12,6 +13,14 @@ const Skills = () => {
               key={index}
               className="text-lg font-medium flex gap-2 items-center px-3 py-1 border-2 border-zinc-700 hover:border-cyan-700 cursor-pointer bg-transparent rounded-md text-zinc-300 slow"
             >
+              <span>
+                <Image
+                  src={`https://skillicons.dev/icons?i=${skill.skillDev}`}
+                  height={24}
+                  width={24}
+                  alt={skill.skillName}
+                />
+              </span>
               <span>{skill.skillName}</span>
             </p>
           ))}

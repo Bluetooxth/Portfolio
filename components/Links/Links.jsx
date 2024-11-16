@@ -47,8 +47,8 @@ const Links = () => {
               target="_blank"
               className="flex justify-between items-center bg-transparent border-2 border-zinc-700 hover:border-cyan-700 cursor-pointer px-3 py-2 text-lg font-medium text-zinc-300 rounded-md slow w-full"
             >
-              {link.icon}
-              {link.name}
+              <span className="text-2xl">{link.icon}</span>
+              <span>{link.name}</span>
             </Link>
           ))}
         </div>

@@ -29,74 +29,87 @@ import { SiExpo } from "react-icons/si";
 const skills = [
   {
     skillName: "JavaScript",
+    skillDev: "js",
     skillIcon: FaJsSquare,
   },
   {
     skillName: "TailwindCSS",
+    skillDev: "tailwind",
     skillIcon: SiTailwindcss,
   },
-  {
-    skillName: "React Native",
-    skillIcon: TbBrandReactNative,
-  },
-  {
-    skillName: "Expo",
-    skillIcon: SiExpo,
-  },
+  // {
+  //   skillName: "React Native",
+  //   skillDev: "react",
+  //   skillIcon: TbBrandReactNative,
+  // },
+  // {
+  //   skillName: "Expo",
+  //   skillDev: "",
+  //   skillIcon: SiExpo,
+  // },
   {
     skillName: "ReactJS",
+    skillDev: "react",
     skillIcon: FaReact,
   },
   {
     skillName: "NextJS",
+    skillDev: "nextjs",
     skillIcon: SiNextdotjs,
   },
   {
     skillName: "NodeJS",
+    skillDev: "nodejs",
     skillIcon: FaNodeJs,
   },
   {
     skillName: "ExpressJS",
+    skillDev: "express",
     skillIcon: SiExpress,
   },
   {
-    skillName: "Mongoose",
-    skillIcon: SiMongoose,
-  },
-  {
     skillName: "Prisma",
+    skillDev: "prisma",
     skillIcon: TbBrandPrisma,
   },
   {
     skillName: "MongoDB",
+    skillDev: "mongodb",
     skillIcon: SiMongodb,
   },
   {
     skillName: "PostgreSQL",
+    skillDev: "postgres",
     skillIcon: SiPostgresql,
   },
   {
     skillName: "Golang",
+    skillDev: "go",
     skillIcon: FaGolang,
   },
   {
     skillName: "C lang",
+    skillDev: "c",
     skillIcon: "",
   },
   {
     skillName: "Git",
+    skillDev: "git",
     skillIcon: FaGitAlt,
   },
   {
     skillName: "Github",
+    skillDev: "github",
     skillIcon: FaGithub,
   },
   {
     skillName: "Postman",
+    skillDev: "postman",
     skillIcon: SiPostman,
   },
   {
     skillName: "Linux",
+    skillDev: "linux",
     skillIcon: FaLinux,
   },
 ];
