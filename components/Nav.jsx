@@ -42,7 +42,7 @@ const Nav = () => {
   ];
 
   return (
-    <section className="flex justify-center items-center w-full bg-zinc-900 bg-opacity-20 fixed bottom-3 z-10">
+    <section className="flex justify-center items-center w-full bg-zinc-900 bg-opacity-20 fixed md:bottom-3 bottom-0 z-10">
       <div className="flex justify-center items-center gap-10 py-3 md:py-4 px-7 rounded-full backdrop-blur-lg relative">
         {docIcons.map((icon, index) => (
           <Link key={index} href={icon.link} target="">

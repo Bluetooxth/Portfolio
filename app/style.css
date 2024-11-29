@@ -39,9 +39,10 @@ h2{
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  /* width: 6px; */
+  display: none;
 }
-
+/* 
 ::-webkit-scrollbar-thumb {
   background: #212121;
   border-radius: 4px;
@@ -51,4 +52,4 @@ h2{
 ::-webkit-scrollbar-track {
   background: #000;
   border-radius: 4px;
-}
+} */
