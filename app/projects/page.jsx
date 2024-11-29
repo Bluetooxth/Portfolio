@@ -4,7 +4,7 @@ import React from "react";
 const ProjectsPage = () => {
   return (
     <>
-      <main className="py-12">
+      <main className="pt-12 pb-28">
       <Projects />
       </main>
     </>

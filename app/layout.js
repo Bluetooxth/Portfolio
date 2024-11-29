@@ -1,7 +1,6 @@
 import Nav from "@/components/Nav";
 import "./globals.css";
 import "./style.css";
-import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Priyanshu Chahar - Portfolio",
@@ -39,7 +38,6 @@ export default function RootLayout({ children }) {
       <body>
         <Nav />
         {children}
-        <Footer />
       </body>
     </html>
   );

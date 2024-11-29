@@ -1,29 +1,7 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedinIn } from "react-icons/fa";
-import Link from "next/link";
 import Image from "next/image";
 
 const Hero = () => {
-  const links = [
-    {
-      name: "Github",
-      link: "https://github.com/bluetooxth",
-      icon: <FaGithub />,
-    },
-    {
-      name: "Twitter",
-      link: "https://twitter.com/bluetooxth",
-      icon: <FaXTwitter />,
-    },
-    {
-      name: "LinkedIn",
-      link: "https://www.linkedin.com/in/priyannxhuu",
-      icon: <FaLinkedinIn />,
-    },
-  ];
-
   return (
     <section className="flex justify-center items-center w-full">
       <div className="flex flex-col-reverse md:grid md:grid-cols-2 justify-start items-start w-[95vw] lg:w-[65vw] md:w-[75vw]">
@@ -37,18 +15,6 @@ const Hero = () => {
           <p className="text-lg font-medium text-zinc-300">
             Developer and Programmer
           </p>
-          <div className="flex flex-wrap justify-start items-center gap-3 mt-2">
-            {links.map((link, index) => (
-              <Link
-                key={index}
-                href={link.link}
-                target="_blank"
-                className="text-2xl text-zinc-300"
-              >
-                <span>{link.icon}</span>
-              </Link>
-            ))}
-          </div>
         </div>
         <div className="flex justify-start items-center">
           <Image

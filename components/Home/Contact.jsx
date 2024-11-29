@@ -41,10 +41,10 @@ const ContactMe = () => {
         </h2>
         <div className="flex flex-col justify-start items-start w-full gap-3">
           <form
-            className="flex flex-col justify-start items-start gap-4 w-full"
+            className="flex flex-col justify-start items-start gap-4 max-w-[600px] w-full"
             onSubmit={sendEmail}
           >
-            <div className="flex flex-col justify-start items-start gap-2 w-full">
+            <div className="flex flex-col justify-start items-start gap-2 w-full relative">
               <label
                 htmlFor="name"
                 className="text-xl font-medium text-zinc-300"
@@ -54,15 +54,17 @@ const ContactMe = () => {
               <input
                 type="text"
                 id="name"
-                className="text-lg font-medium px-3 py-2 outline-none w-full bg-transparent border-2 border-zinc-700 focus:border-cyan-700 rounded-md text-zinc-300 slow"
+                className="text-lg font-medium px-3 py-2 outline-none w-full bg-transparent border-2 border-zinc-700 rounded-md text-zinc-300 slow"
                 placeholder="Your Name"
                 required
                 value={name}
                 autoComplete="off"
                 onChange={(e) => setName(e.target.value)}
               />
+              <span className="absolute inset-x-0 bottom-0 h-[1px] w-full bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></span>
+              <span className="absolute inset-x-0 bottom-0 h-[2px] blur-md w-full bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></span>
             </div>
-            <div className="flex flex-col justify-start items-start gap-2 w-full">
+            <div className="flex flex-col justify-start items-start gap-2 w-full relative">
               <label
                 htmlFor="email"
                 className="text-xl font-medium text-zinc-300"
@@ -72,15 +74,17 @@ const ContactMe = () => {
               <input
                 type="email"
                 id="email"
-                className="text-lg font-medium px-3 py-2 outline-none w-full bg-transparent border-2 border-zinc-700 focus:border-cyan-700 rounded-md text-zinc-300 slow"
+                className="text-lg font-medium px-3 py-2 outline-none w-full bg-transparent border-2 border-zinc-700 rounded-md text-zinc-300 slow"
                 placeholder="Your Email"
                 required
                 value={email}
                 autoComplete="off"
                 onChange={(e) => setEmail(e.target.value)}
               />
+              <span className="absolute inset-x-0 bottom-0 h-[1px] w-full bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></span>
+              <span className="absolute inset-x-0 bottom-0 h-[2px] blur-md w-full bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></span>
             </div>
-            <div className="flex flex-col justify-start items-start gap-2 w-full">
+            <div className="flex flex-col justify-start items-start gap-2 w-full relative">
               <label
                 htmlFor="message"
                 className="text-xl font-medium text-zinc-300"
@@ -89,18 +93,22 @@ const ContactMe = () => {
               </label>
               <textarea
                 id="message"
-                className="text-lg font-medium px-3 py-2 outline-none w-full bg-transparent border-2 border-zinc-700 focus:border-cyan-700 rounded-md text-zinc-300 slow"
+                className="text-lg font-medium px-3 py-2 outline-none w-full bg-transparent border-2 border-zinc-700 rounded-md text-zinc-300 slow"
                 placeholder="Your Message"
                 required
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               />
+              <span className="absolute inset-x-0 bottom-0 h-[1px] w-full bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></span>
+              <span className="absolute inset-x-0 bottom-0 h-[2px] blur-md w-full bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></span>
             </div>
             <button
               type="submit"
-              className="text-lg font-medium flex gap-2 items-center px-3 py-1 border-2 border-zinc-700 hover:border-cyan-700 cursor-pointer bg-transparent hover:bg-cyan-600 rounded-md text-zinc-300 slow"
+              className="text-lg font-medium flex gap-2 items-center px-3 py-1 border-2 border-zinc-700 cursor-pointer bg-transparent rounded-md text-zinc-300 slow relative"
             >
               {btn} <BsFillSendFill className="inline-block" />
+              <span className="absolute inset-x-0 bottom-0 h-[1px] w-full bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></span>
+              <span className="absolute inset-x-0 bottom-0 h-[2px] blur-md w-full bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></span>
             </button>
           </form>
         </div>

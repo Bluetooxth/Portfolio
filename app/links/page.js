@@ -4,7 +4,7 @@ import React from "react";
 const LinksPage = () => {
   return (
     <>
-      <main className="py-12">
+      <main className="pt-12 pb-28">
       <Links />
       </main>
     </>

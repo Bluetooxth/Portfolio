@@ -45,10 +45,12 @@ const Links = () => {
               href={link.link}
               key={index}
               target="_blank"
-              className="flex justify-between items-center bg-transparent border-2 border-zinc-700 hover:border-cyan-700 cursor-pointer px-3 py-2 text-lg font-medium text-zinc-300 rounded-md slow w-full"
+              className="flex justify-between items-center bg-transparent border-2 border-zinc-700 cursor-pointer px-3 py-2 text-lg font-medium text-zinc-300 rounded-md slow w-full relative"
             >
-              <span className="text-2xl">{link.icon}</span>
+              <span className="text-2xl text-left">{link.icon}</span>
               <span>{link.name}</span>
+              <span className="absolute inset-x-0 bottom-0 h-[1px] w-full bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></span>
+              <span className="absolute inset-x-0 bottom-0 h-[2px] blur-md w-full bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></span>
             </Link>
           ))}
         </div>
