@@ -40,10 +40,10 @@ const projexts = [
   },
   {
     name: "Dokxy",
-    tech: [<SiNextdotjs />, <SiTailwindcss />, <SiMongodb />],
+    tech: [<SiNextdotjs />, <SiTailwindcss />, <SiMongodb />,<FaNodeJs />, <SiExpress />],
     desc: "A doctor-patient appointment system enabling easy scheduling, management, and communication.",
-    link: "https://dokxy.vercel.app",
-    github: "https://github.com/Bluetooxth/Dokxy",
+    link: "https://dokxyv1.vercel.app",
+    github: "https://github.com/Bluetooxth/healthcare",
   },
   {
     name: "ReactJS Projects",
